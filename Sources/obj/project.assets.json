@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
+      "ImageProcessor/2.9.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net452/ImageProcessor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/ImageProcessor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Toolkit.UI.XamlHost/6.1.2": {
         "type": "package",
         "dependencies": {
@@ -431,9 +447,39 @@
         "build": {
           "build/net461/System.Runtime.WindowsRuntime.UI.Xaml.targets": {}
         }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     ".NETFramework,Version=v4.8/win": {
+      "ImageProcessor/2.9.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net452/ImageProcessor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/ImageProcessor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Toolkit.UI.XamlHost/6.1.2": {
         "type": "package",
         "dependencies": {
@@ -626,10 +672,40 @@
         },
         "build": {
           "build/net461/System.Runtime.WindowsRuntime.UI.Xaml.targets": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
     ".NETFramework,Version=v4.8/win-arm64": {
+      "ImageProcessor/2.9.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net452/ImageProcessor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/ImageProcessor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Toolkit.UI.XamlHost/6.1.2": {
         "type": "package",
         "dependencies": {
@@ -822,10 +898,40 @@
         },
         "build": {
           "build/net461/System.Runtime.WindowsRuntime.UI.Xaml.targets": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
     ".NETFramework,Version=v4.8/win-x64": {
+      "ImageProcessor/2.9.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net452/ImageProcessor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/ImageProcessor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Toolkit.UI.XamlHost/6.1.2": {
         "type": "package",
         "dependencies": {
@@ -1018,10 +1124,40 @@
         },
         "build": {
           "build/net461/System.Runtime.WindowsRuntime.UI.Xaml.targets": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
     ".NETFramework,Version=v4.8/win-x86": {
+      "ImageProcessor/2.9.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net452/ImageProcessor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/ImageProcessor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Toolkit.UI.XamlHost/6.1.2": {
         "type": "package",
         "dependencies": {
@@ -1214,11 +1350,38 @@
         },
         "build": {
           "build/net461/System.Runtime.WindowsRuntime.UI.Xaml.targets": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
   },
   "libraries": {
+    "ImageProcessor/2.9.0": {
+      "sha512": "5FliI2L99AlSG1GRDcRfGzFhaBycAK70kDkG7UxKcxYWfRC7pvcU40LqCkVUTgzi6xMc7DD0rkRwj9fv1AHvWg==",
+      "type": "package",
+      "path": "imageprocessor/2.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "imageprocessor.2.9.0.nupkg.sha512",
+        "imageprocessor.nuspec",
+        "lib/net452/ImageProcessor.dll",
+        "lib/net452/ImageProcessor.xml"
+      ]
+    },
     "Microsoft.Toolkit.UI.XamlHost/6.1.2": {
       "sha512": "/cMQUJPxl+pASVOO47T8zml9YuHLyejP5ct0OUN7OVshrJ2n/QRMDVktPxbMSla8Rl3Jnpn2n3qyHjVkNBt0Og==",
       "type": "package",
@@ -1696,10 +1859,55 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
+      "ImageProcessor >= 2.9.0",
       "Microsoft.Toolkit.Wpf.UI.XamlHost >= 6.1.2",
       "Microsoft.VCRTForwarders.140 >= 1.0.6"
     ]
@@ -1747,6 +1955,10 @@
     "frameworks": {
       "net48": {
         "dependencies": {
+          "ImageProcessor": {
+            "target": "Package",
+            "version": "[2.9.0, )"
+          },
           "Microsoft.Toolkit.Wpf.UI.XamlHost": {
             "target": "Package",
             "version": "[6.1.2, )"

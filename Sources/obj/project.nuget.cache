@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "quSqLWI/MKnbf5QTC7viTNNs8qI8L1xzydrZ9FDTzX+Cu6PQC5RYb5Hr/gpTRy89lRdnfgnBKsdxx6qVbGxHXA==",
+  "dgSpecHash": "AdkYmG9fEKJfYKgCz50I4Jo5c7hkEICjnonmy8TGeb6N0Pzzes/MhjrgSaIvkyplJCuvJLflNHfFcmhbX7qP0A==",
   "success": true,
   "projectFilePath": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\WpfCamera.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\imageprocessor\\2.9.0\\imageprocessor.2.9.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.toolkit.ui.xamlhost\\6.1.2\\microsoft.toolkit.ui.xamlhost.6.1.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.toolkit.win32.ui.sdk\\6.1.2\\microsoft.toolkit.win32.ui.sdk.6.1.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.toolkit.win32.ui.xamlapplication\\6.1.2\\microsoft.toolkit.win32.ui.xamlapplication.6.1.2.nupkg.sha512",
@@ -11,7 +12,8 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.vcrtforwarders.140\\1.0.6\\microsoft.vcrtforwarders.140.1.0.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.18362.2005\\microsoft.windows.sdk.contracts.10.0.18362.2005.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\system.runtime.windowsruntime.4.6.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

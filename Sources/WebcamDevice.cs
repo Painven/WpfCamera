@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Windows.Devices.Enumeration;
@@ -96,7 +97,7 @@ public class WebcamDevice : INotifyPropertyChanged
         }
         else
         { // start recording
-            var videoFile = await _captureFolder.CreateFileAsync(GetCameraFileName(".wmv"), CreationCollisionOption.GenerateUniqueName);
+            var videoFile = await _captureFolder.CreateFileAsync("camera.wmv", CreationCollisionOption.ReplaceExisting);
 
             var encodingProfile = MediaEncodingProfile.CreateWmv(VideoEncodingQuality.Auto);
 
@@ -140,15 +141,18 @@ else
 */
     }
 
-    public async Task CreateCameraImage(string imageName = null)
+    public async Task<string> CreateCameraImage(string imageName = null)
     {
         using var stream = new InMemoryRandomAccessStream();
 
         await _mediaCapture.CapturePhotoToStreamAsync(ImageEncodingProperties.CreateJpeg(), stream);
 
+        string name = imageName ?? GetCameraFileName(".jpg");
+        string imageFullPath = Path.Combine(_captureFolder.Path, name);
+
         try
         {
-            var file = await _captureFolder.CreateFileAsync(imageName ?? GetCameraFileName(".jpg"), CreationCollisionOption.GenerateUniqueName);
+            var file = await _captureFolder.CreateFileAsync(name, CreationCollisionOption.ReplaceExisting);
 
             var decoder = await BitmapDecoder.CreateAsync(stream);
 
@@ -160,6 +164,8 @@ else
         catch (Exception)
         {
         }
+
+        return imageFullPath;
     }
 
     private string GetCameraFileName(string extension)

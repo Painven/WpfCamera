@@ -22,3 +22,5 @@ D:\Programming\CSharp\Examples\WebcamCapture\WPFCamera\Sources\obj\Debug\WpfCame
 D:\Programming\CSharp\Examples\WebcamCapture\WPFCamera\Sources\obj\Debug\WpfCamera.csproj.Up2Date
 D:\Programming\CSharp\Examples\WebcamCapture\WPFCamera\Sources\obj\Debug\WpfCamera.exe
 D:\Programming\CSharp\Examples\WebcamCapture\WPFCamera\Sources\obj\Debug\WpfCamera.pdb
+D:\Programming\CSharp\Examples\WebcamCapture\WPFCamera\Sources\bin\Debug\ImageProcessor.dll
+D:\Programming\CSharp\Examples\WebcamCapture\WPFCamera\Sources\bin\Debug\System.ValueTuple.dll

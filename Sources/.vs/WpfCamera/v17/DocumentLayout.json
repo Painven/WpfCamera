@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|d:\\programming\\csharp\\examples\\webcamcapture\\wpfcamera\\sources\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|solutionrelative:mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|d:\\programming\\csharp\\examples\\webcamcapture\\wpfcamera\\sources\\imagerecognizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|solutionrelative:imagerecognizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|d:\\programming\\csharp\\examples\\webcamcapture\\wpfcamera\\sources\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|d:\\programming\\csharp\\examples\\webcamcapture\\wpfcamera\\sources\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|d:\\programming\\csharp\\examples\\webcamcapture\\wpfcamera\\sources\\webcamdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|solutionrelative:webcamdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|d:\\programming\\csharp\\examples\\webcamcapture\\wpfcamera\\sources\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|d:\\programming\\csharp\\examples\\webcamcapture\\wpfcamera\\sources\\fileexplorerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99FFC2E8-9613-49C3-9ACD-EDED48574259}|WpfCamera.csproj|solutionrelative:fileexplorerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,34 +64,60 @@
               "RelativeDocumentMoniker": "WebcamDevice.cs",
               "ToolTip": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\WebcamDevice.cs",
               "RelativeToolTip": "WebcamDevice.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAAKQAAAAAAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAADwv2AAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T10:04:47.416Z",
+              "WhenOpened": "2024-04-21T11:33:49.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileExplorerHelper.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\FileExplorerHelper.cs",
+              "RelativeDocumentMoniker": "FileExplorerHelper.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\FileExplorerHelper.cs",
+              "RelativeToolTip": "FileExplorerHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T11:33:45.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "MainWindowViewModel.cs",
-              "ToolTip": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\MainWindowViewModel.cs",
-              "RelativeToolTip": "MainWindowViewModel.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAgwCoAAAAoAAAA",
+              "Title": "ImageRecognizer.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\ImageRecognizer.cs",
+              "RelativeDocumentMoniker": "ImageRecognizer.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\ImageRecognizer.cs",
+              "RelativeToolTip": "ImageRecognizer.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwCQAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T09:56:41.441Z",
+              "WhenOpened": "2024-04-21T10:58:13.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-21T09:03:00.611Z",
+              "WhenOpened": "2024-04-21T10:40:34.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAgwFsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T10:39:56.284Z",
               "EditorCaption": ""
             },
             {
@@ -94,7 +128,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\Programming\\CSharp\\Examples\\WebcamCapture\\WPFCamera\\Sources\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T08:44:40.491Z",
               "EditorCaption": ""

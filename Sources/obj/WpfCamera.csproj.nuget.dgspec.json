@@ -43,6 +43,10 @@
       "frameworks": {
         "net48": {
           "dependencies": {
+            "ImageProcessor": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
             "Microsoft.Toolkit.Wpf.UI.XamlHost": {
               "target": "Package",
               "version": "[6.1.2, )"
