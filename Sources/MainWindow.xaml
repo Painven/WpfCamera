@@ -6,11 +6,13 @@
     xmlns:local="clr-namespace:WpfCamera"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:xamlhost="clr-namespace:Microsoft.Toolkit.Wpf.UI.XamlHost;assembly=Microsoft.Toolkit.Wpf.UI.XamlHost"
+    Loaded="Window_Loaded"
     Title="WPF camera"
     Width="1200"
     Height="800"
-    mc:Ignorable="d"
-    d:Width="400" d:Height="200">
+    d:Height="200"
+    d:Width="400"
+    mc:Ignorable="d">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -23,7 +25,7 @@
         </Grid.ColumnDefinitions>
 
         <xamlhost:WindowsXamlHost
-            x:Name="XamlHost"
+            x:Name="captureViewer"
             Grid.Row="0"
             Grid.Column="0" />
 
@@ -33,24 +35,21 @@
             Grid.ColumnSpan="2"
             Orientation="Horizontal">
             <Button
-                Margin="10"
+                Command="{Binding CreatePhotoCommand}"
                 x:Name="btnPhoto"
-                Click="Photo_Click"
+                Margin="10"
                 Content="Photo" />
             <Button
-                Margin="10"
                 x:Name="btnVideo"
-                Click="Video_Click"
+                Margin="10"
                 Content="Video" />
             <Button
-                Margin="10"
                 x:Name="btnAudio"
-                Click="Audio_Click"
+                Margin="10"
                 Content="Audio" />
             <Button
-                Margin="10"
                 x:Name="btnOpenFolder"
-                Click="btnOpenFolder_Click"
+                Margin="10"
                 Content="Open Folder" />
         </StackPanel>
         <StackPanel
